@@ -3,9 +3,9 @@
 Đánh dấu [x] khi đã chạy và kiểm tra kết quả.
 
 ## 1. Entropy / Redundancy
-- [x] Input: `aaaa` -> entropy thấp (0.0), redundancy cao (8.0)
-- [x] Input: `abcd` -> entropy cao hơn `aaaa` (2.0), redundancy (6.0)
-- [x] Input: `hello world` -> entropy và redundancy được tính hợp lệ (2.845, 5.155)
+- [x] Input: `aaaa` -> entropy thấp, redundancy cao
+- [x] Input: `abcd` -> entropy cao hơn `aaaa`
+- [x] Input: `hello world` -> entropy và redundancy được tính hợp lệ
 
 ## 2. Modulo inverse
 - [x] `a=3, m=7` -> nghịch đảo modulo là 5
